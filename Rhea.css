@@ -1,0 +1,38 @@
+p	{
+	
+	text-transform:lowercase;
+	
+	text-shadow: 3px 3px blue;
+	line-height: 50px;
+	source src="universe.ogg" type="audio/ogg">
+<source src="universe.mps" type="audio/mpeg">
+
+} 
+@keyframes sizechange{
+0%{font-size: 2.5em};
+10%{font-family: times new roman};
+20%{font-size: 3.7em};
+40%{font-family: impact};
+50%{font-size:3.2em };
+60%{color: gold};
+70%{font-size:4.8em };
+80%{border:5px};
+100%{padding: 15px};
+
+
+
+
+
+
+
+
+
+
+}
+h1{
+	text-align: center;
+	animation: sizechange 4s infinite;
+	line-height: 50px;
+	
+}
+
